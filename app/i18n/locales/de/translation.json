@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Matè",
+    "shop": "Shop",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subhead": "Sänger/Maler",
+    "name": "Matè",
+    "fname": "Kamaras",
+    "desc": "Engagiert dafür, Geschichten durch die Kraft der Musik und des Geschichtenerzählens zum Leben zu erwecken. Mit einer Mischung aus Hingabe und Kreativität strebt er danach, das Publikum zu fesseln und einen bleibenden Eindruck zu hinterlassen.",
+    "news": "news"
+  }
+}
