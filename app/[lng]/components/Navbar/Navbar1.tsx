@@ -3,9 +3,8 @@ import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 import { images } from '../../constants';
 import LanguageSelector from './LanuageSelector'; // Importing the LanguageSelector component
 import Image from 'next/image';
-import Link from 'next/link';
 
-import './Navbar.css';
+import './Navbar1.css';
 import { useState } from 'react';
 import { useTranslation } from '@/app/i18n/client';
 import { defaultNS } from '@/app/i18n/settings';
@@ -36,7 +35,7 @@ const Navbar = ({ lng }: { lng: string }) => {
             <a href='#home'>{t('nav.home')}</a>
           </li>
           <li className='p__opensans'>
-            <Link href={`${lng}/test`}>{t('nav.about')}</Link>
+            <a href='#about'>{t('nav.about')}</a>
           </li>
           <li className='p__opensans'>
             <a href='#shop'>{t('nav.shop')}</a>
